@@ -1,0 +1,130 @@
+@media screen and (max-width: 800px){
+    .content-container-right{
+        display: none;
+        /* visibility: hidden; */
+    }
+}
+
+@media screen and (max-width: 700px) {
+    /* nav bar */
+    .nav-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .left-content{
+        justify-content: center;
+        gap: 1rem;
+    }
+    .search-container{
+        justify-content: space-between;
+        justify-self: start;
+        width: 100%;
+        gap: 2rem;
+    }
+
+    /* contact page */
+    .contact-container input{
+        width: 75vw;
+    }
+
+    .text-area{
+        width: 75vw;
+    }
+
+    .contact-submit-button{
+        width: 30%;
+    }
+
+
+}
+
+/* ****************************************** */
+
+@media screen and (max-width: 550px) {
+
+    /* for nav bar */
+    .left-content{
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    /* for container content */
+    .content-container-left{
+        padding: 1rem 0.4rem;
+    }
+
+    .heading{
+        text-align: center;
+    }
+    
+    .feature-heading{
+        text-align: center;
+    }
+
+    .feature-section-container{
+        position: relative;
+        flex-direction: column;
+    }
+
+    .featured-sec-img{
+        width: 60vw;
+    }
+
+    .feature-section-container a{
+        width: 60vw;
+        /* align-items: center;
+        justify-content: center; */
+    }
+
+    .feature-section-container div{
+        text-align: center;
+    }
+
+    .year-container{
+        display: none;
+    }
+
+    /* blog spot */
+    .blogspot-content-container{
+        padding: 0;
+        word-spacing: 0.5rem;
+    }
+
+    .blogspot-content-sub-heading{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1.5rem; 
+    }
+
+    .people-read-container{
+        flex-direction: column;
+    }
+
+    .people-read-content img{
+        width: 60vw;
+    }
+
+    /* contact page */
+
+    .form-heading{
+        text-align: center;
+    }
+
+    .contact-submit-button{
+        padding: 0.3rem ;
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .contact-submit-button{
+        /* position: absolute;
+        bottom: 15%; */
+        padding: 0.3rem ;
+        width: 45%;
+    }
+}

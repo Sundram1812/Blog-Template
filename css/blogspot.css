@@ -1,0 +1,105 @@
+.img-container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 60%;
+    width: 100%;
+    background:url('../img/bg.svg') no-repeat;
+    background-size: cover;
+}
+nav{
+    border-bottom: 1px solid black;
+}
+
+.blogspot-content-container{
+    display: block;
+    padding: 2rem ;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 2rem;
+}
+
+.blogspot-content-heading{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.blogspot-content-sub-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.sub-heading-left{
+    /*  */
+}
+
+.author{
+    font-size: 20px;
+}
+
+.sub-heading-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+}
+.sub-heading-right img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.myBlogSpot-text-content{
+    padding: 1rem 1rem;
+    max-width: 85%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+/* --------------------------------------------- */
+
+.read-heading{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.people-read-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+
+
+.people-read-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.people-read-content img{
+    width: 25vw;
+    border-radius: 8px;
+}
+
+.about-author-time{
+    width: 78%;
+    font-family: var(--font1);
+    line-height: 2rem;
+    text-align: center;
+}
+
+.about-author-time a{
+    text-decoration: none;
+    color: #111111;
+    cursor: pointer;
+}

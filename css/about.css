@@ -1,0 +1,19 @@
+.about-container{
+    position: relative;
+
+}
+
+.about-container::after{
+    position: absolute;
+    background: url('../img/1.png') no-repeat;
+    background-size: cover;
+    z-index: 4;
+}
+
+.spn{
+    background-color: antiquewhite;
+    margin: 10px auto;
+    font-size: 1.8rem;
+    text-align: center;
+    max-width: 85%;
+}
